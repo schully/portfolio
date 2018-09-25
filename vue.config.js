@@ -1,0 +1,5 @@
+// vue config
+
+module.exports = {
+
+}
