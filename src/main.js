@@ -5,15 +5,6 @@ Vue.config.productionTip = false
 
 new Vue({
   el: "#app",
-  data() {
-    return {
-      message: "Hello World"
-    }
-  },
-  components: {
-    'my-component': {
-      template: '<div>Local</div>'
-    }
-  }
+  render: h => <App />
 })
 
