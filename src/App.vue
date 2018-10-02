@@ -2,7 +2,7 @@
   <div id="home">
   
     <h1>Portfolio</h1>
-
+    
     <button type="submit">Add Project</button>
     <br>
     <br>
@@ -30,6 +30,8 @@ export default {
     Slide
   }
 }
+
+
 </script>
 
 <style scoped>
