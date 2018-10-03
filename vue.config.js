@@ -1,5 +1,0 @@
-// vue config
-
-module.exports = {
-
-}
