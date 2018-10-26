@@ -2,7 +2,6 @@
     <div id="about">
         <h1>(Totally) Me</h1>
         <a href="https://www.google.com/search?q=duck&client=ubuntu&hs=CO9&channel=fs&source=lnms&sa=X&ved=0ahUKEwiI4v_48erdAhWBBywKHX_NCdEQ_AUICSgA&biw=1920&bih=938&dpr=1"><img src="../assets/totallyMe.jpg" alt="totallyME"></a> 
-
         <ul>
             <li>Email: {{email}}</li>
             <a href="https://github.com/schully"> <li>Github: {{github}} </li> </a>

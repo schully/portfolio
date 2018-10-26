@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div class="hero-body" id="app">
   
-    <h1>Portfolio</h1>
+    <h1 class="title">Portfolio</h1>
     <Navigation></Navigation>  
     <router-view/>
      
@@ -24,15 +24,10 @@ export default {
 
 </script>
 
-<style scoped>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="sass">
+  @import "../node_modules/bulma/bulma.sass"
 </style>
+
+
 
 

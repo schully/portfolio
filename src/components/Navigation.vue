@@ -2,7 +2,7 @@
     <div>
         <h2>Nav Bar</h2>
         <nav>
-            <router-link class="spacing" v-for="routes in links" v-bind:key="routes.id" :to="`${routes.page}`">{{routes.text}}</router-link>
+            <router-link class="button" v-for="routes in links" v-bind:key="routes.id" :to="`${routes.page}`">{{routes.text}}</router-link>
         </nav>
     </div>
 </template>
@@ -32,10 +32,3 @@ export default {
 }
 </script>
 
-
-<style> 
-  .spacing { 
-    Margin-right: 10px; 
-    color: darkturquoise;
-  } 
-</style>
