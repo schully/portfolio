@@ -1,30 +1,12 @@
 <template>
     <div>
     <carousel :navigationEnabled="true" :perPageCustom="[[768,3],[1024,4]]">
-      <slide class="slides image"><img class="is-rounded" src="../assets/mat.png" alt="project"><br> First useful project, could still use some fin putsning </slide>
-      <slide class="slides done image"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides done"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides done"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides done"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides done"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides done"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides done"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides done"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides done"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides done"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides done"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides done"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides done"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-      <slide class="slides done"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
-
+      <slide class="slides done image"><img class="is-rounded" src="../assets/mat.png" alt="project"><br> First useful project, could still use some fin putsning </slide>
+      <slide class="slides image"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
+      <slide class="slides image"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
+      <slide class="slides image"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
+      <slide class="slides image"><img src="../assets/dummy-project.png" alt="project"><br> sit amet consectetur adipisicing elit. </slide>
+   
     </carousel>
     </div>
 </template>
